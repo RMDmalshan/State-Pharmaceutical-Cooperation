@@ -1,0 +1,88 @@
+﻿.all{
+   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  }
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  color:#E50C10;
+}
+
+
+
+
+/*This is span the text*/
+.user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+
+
+
+/* Input box size*/
+ .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+
+
+
+ /*Box size*/
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+
+.nav {
+  overflow: hidden;
+  background-color: #ABA3A3;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+
+
+.nav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+   
+}
+
+  .nav a:hover {
+  background-color: #719DAC;
+  color: black;
+
+
+ 
+}
+

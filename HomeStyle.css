@@ -1,0 +1,66 @@
+﻿
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+
+.nav {
+  overflow: hidden;
+  background-color: #ABA3A3;
+  position: fixed;
+  top: 0;
+  width: 100%;  
+}
+
+
+
+.nav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+   
+}
+
+  .nav a:hover {
+  background-color: #719DAC;
+  color: black;
+
+
+ 
+}
+
+
+  .baclkcolour{
+	
+	background-color: #D7D7D7;
+	height:390px;
+	
+}
+
+  .H1{
+      font-size: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
